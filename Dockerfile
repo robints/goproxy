@@ -15,7 +15,7 @@ COPY --from=build /src/goproxy/bin/goproxy /goproxy
 
 VOLUME /go
 
-EXPOSE 8081
+EXPOSE 8080
 
 ENTRYPOINT ["/goproxy"]
 CMD []
